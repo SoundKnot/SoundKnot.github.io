@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0">
+        <title>switchstatement.xyz</title>
+        <meta name="description" content="It's switchstatement.xyz.">
+        <link rel="canonical" href="http://switchstatement.xyz/">
+        <style>
+            body {margin: 5% auto; background: #282828; color: #ebdbb2; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.8; text-shadow: 0 1px 0 #1d2021; width: 73%; max-width:1440px;}
+            code {background:#1d2021; color: #d3869b;}
+            a {border-bottom: 1px solid #ebdbb2; color: #ebdbb2; text-decoration: none;}
+            a:hover {border-bottom: 0;}
+        </style>
+    </head>
+    <body>
+        <header>
+			<h1>Switch Statement (dot) xyz</h1>
+			<blockquote>"The most powerful statement in the C language is the switch statement [...] The CIA wants you to think it's nothing more than IF-THEN-ELSE. The CIA wants you to think it's the same as IF-ELSE; it's not."<br> 
+			<em>-Terry A. Davis</em>
+			</blockquote>
+		</header>
+    <h2><strong>A simple switch statement that returns a random direction</strong></h2>
+<p><code><pre class='ccode'>
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;time.h&gt;
+
+int main ( void ) {
+int dir = 0;
+
+srandom ( (unsigned) time(NULL) ) ;
+
+dir = random ( ) % 7 + 0;
+
+switch ( dir ) {
+	case 0:
+	printf("N");
+	break;
+
+	case 1:
+	printf("S");
+	break;
+
+	case 2:
+	printf("E");
+	break;
+
+	case 3:
+	printf("W");
+	break;
+
+	case 4:
+	printf("NW");
+	break;
+
+	case 5:
+	printf("NE");
+	break;
+
+	case 6:
+	printf("SW");
+	break;
+
+	case 7:
+	printf("SE");
+	break;
+}
+
+printf("\n");
+
+return 0;
+}
+</pre></code></p>
+<h2>Reasons this website is better than yours</h2>
+        <ul>
+            <li>Awesome C code example</li>
+            <li>Based and red-pilled Terry Davis quotes</li>
+            <li>Minimal 4 lines of CSS</li>
+            <li>No slow &amp; hamfisted JavaScript code, totally JS free</li>
+            <li>Fits on your ultrawide <em>gamer</em> display &amp; your mobile <strike>tracking</strike> device</li>
+            <li>Its based on <a href="https://evenbettermotherfucking.website/">evenbettermotherfucking.website</a></li>
+            <li>/comfy/ gruvbox-dark theme which is easy on the eyes</li>
+            <li>Will help you <a href="https://textfiles.com/survival/117.txt">survive exposure</a> to the cold</li>
+
+        </ul>
+<h2>Red Cross guide to treating exposure</h2>
+<p>
+	The following material may assist you in treating a victim for
+exposure to the cold and also how to deal with frostbite. This
+information is derived from "Advanced First Aid &amp; Emergency Care,"
+2nd edition, by the American Red Cross. To obtain a copy of this
+book and to take instruction in first aid, please contact the local
+office of the American Red Cross. They are listed in the white
+pages of your telephone book.
+</p>
+<p>
+	The extent of injury caused by exposure to abnormally low
+temperature generally depends on such factors as wind velocity,
+type and duration of exposure, temperature and humidity.
+</p>
+<p>
+	Freezing is accelerated by wind, humidity or a combination of
+the two. Injury caused by cold, dry air will be less than that
+caused by cold, moist air or exposure to cold air while wearing wet
+clothing. Fatigue, smoking, drinking of alcoholic beverages,
+emotional stress and the presence of wounds or fractures intensity
+the harmful effects of cold.
+</p>
+<h3>SIGNS AND SYMPTOMS</h3>
+<p>
+	The general manifestations of prolonged exposure to extreme
+cold include shivering, numbness, low body temperature, drowsiness
+and marked muscular weakness. As time passes there is mental
+confusion and impairment of judgment. The victim staggers, his
+eyesight fails, he falls and he may become unconscious. Shock is
+evident and the victim's heart may develop fibrillation. Death, if
+it occurs, is usually due to heart failure.
+</p>
+<p>
+	Frostbite results when crystals form, either superficially or
+deeply in the fluids and the underlying soft tissues of the skin.
+The effects are more severe if the injured area is thawed and then
+refrozen. Frostbite is the most common injury caused by exposure to
+the cold elements. Usually, the frozen area is small. the nose,
+cheeks, ears, fingers and toes are the most commonly affected.
+</p>
+<p>
+	Just before frostbite occurs, the affected skin may be slightly flushed. 
+The skin changes to white or grayish yellow as the
+frostbite develops. Pain is sometimes felt early but subsides
+later. Often there is <strong>NO</strong> pain; the part being frostbitten simply
+feels intensely cold and numb. The victim commonly is not aware of
+frostbite until someone tells him or until he observes his pale,
+glossy skin. The extent of local injury cannot be determined
+accurately on initial examination, even after rewarming. The extent
+of tissue damage usually corresponds to that in burns. In superficial 
+frostbite, there will be an area that looks white or grayish
+and the surface skin will feel hard but the underlying tissue will
+be soft. With deeper involvement, large blisters appear on the
+surface, as well as in underlying tissue, and the affected area is
+hard, cold and insensitive. Destruction of the entire thickness of
+the skin will necessitate skin grafting and will constitute a
+medical emergency, because gangrene may result from loss of blood
+supply to the injured part.
+</p>
+<h3>FIRST AID</h3>
+<p>
+	The objectives of first aid are to protect the frozen area
+from further injury, to warm the affected part rapidly and to
+maintain respiration. Formerly, it was recommended that victims of
+frostbite be treated by slow warming -- rubbing with snow and
+gradually increasing the temperature. But recent studies have shown
+conclusively that much better results are obtained if the affected
+part is <strong>WARMED RAPIDLY</strong> in running or circulating water, unless the
+part has been thawed and refrozen, in which case it should be
+warmed at room temperature (from 70 to 74 degrees Fahrenheit). Do
+<strong>NOT</strong> use excessive heat, as from a stove, hot water bottles, 
+electric blankets or other devices.
+</p>
+<h3>FROSTBITE</h3>
+<p>
+<ol>
+<li>Cover the frozen part.</li>
+
+<li>Provide extra clothing and blankets.</li>
+
+<li>Bring the victim indoors as soon as possible.</li>
+
+<li>Give him a warm drink (not alcoholic!).</li>
+
+<li>Rewarm the frozen part <strong>QUICKLY</strong> by immersing it in water that
+     is warm but not hot. Test the water by pouring some over the
+     inner surface of your forearm or place a thermometer in the
+     water and carefully add warm water to keep the temperature
+     between 102 degrees and 105 degrees Fahrenheit. If warm water
+     is not available or practical to use, wrap the affected part
+     in a sheet and warm blankets.</li>
+
+<li>Handle the area of the frostbite <strong>GENTLY</strong> and <strong>DO NOT MASSAGE IT</strong>.
+     Severe swelling will develop rapidly after thawing. Discontinue 
+     warming as soon as the part becomes flushed (turning
+     red). Once the part is rewarmed, have the victim exercise it.</li>
+
+<li>Cleanse the affected area with water and either soap or a mild
+     detergent (<strong>NOT</strong> laundry or dishwasher detergent, though; they
+     can be caustic and cause a chemical burn). Rinse it thoroughly. 
+     Carefully blot dry with sterile or clean towels. <strong>DO NOT</strong>
+     break the blisters.</li>
+
+<li>If the victim's fingers or toes are involved, place dry,
+     sterile gauze between them to keep them separated.</li>
+
+<li><strong>DO NOT</strong> apply other dressings unless the victim is to be
+     transported to medical aid.</li>
+
+<li>Elevate frostbitten parts and protect them from contact with
+     bedclothes.</li>
+
+<li><strong>DO NOT</strong> allow the victim to walk after the affected part thaws,
+     if his feet are involved.</li>
+
+<li>Do not apply additional heat and do not allow the victim to
+     sit near a radiator, stove or fire. The numbed part may be
+     severely burned and the victim might never realize it is
+     happening to him.</li>
+
+<li>If a person with frozen feet is alone and MUST walk to get
+     medical assistance, he should <strong>NOT</strong> attempt thawing in advance.</li>
+
+<li>If travel after receiving first aid is necessary, cover the
+     affected parts with a sterile or clean cloth.</li>
+
+<li>Obtain medical assistance as soon as possible. If the distance
+     to be covered is great, apply temporary dressings to the hands
+     if they have been affected by frostbite.</li>
+
+<li>Keep injured parts elevated during transportation.</li>
+
+<li>If medical help or trained ambulance personnel will not reach
+     the scene for an hour or more <em>and</em> if the victim is <strong>CONSCIOUS</strong>
+     and <strong>NOT VOMITING</strong>, give him a weak solution of salt and baking
+     soda at home or while enroute (1 level teaspoon of salt and
+     1/2 level teaspoon of baking soda in each quart of water,
+     neither hot nor cold). Do not give alcoholic beverages. Allow
+     the victim to sip <strong>S-L-O-W-L-Y</strong>. Give an adult about 4 ounces (a
+     half glass) over a period of 15 minutes; give a child from 1
+     to 12 years old about 2 ounces; give an infant (under 1 year
+     old) about 1 ounce every 15 minutes. Discontinue giving fluids
+     if vomiting occurs. Fluid may be given by mouth <strong>ONLY</strong> if
+     medical help will not be available for an hour or more and is
+     not otherwise contraindicated.</li>
+</ol>
+</p>
+<h3>PROLONGED EXPOSURE</h3>
+<p>
+<ol>
+<li>Give the victim artificial respiration, if necessary.</li>
+
+<li>Bring the victim into a warm room as quickly as possible.</li>
+
+<li>Remove wet or frozen clothing and anything that constricts the
+     victim's arms, legs or fingers and might interfere with
+     circulation as the frozen part is thawed and swelling begins.</li>
+
+<li>Rewarm the victim rapidly by wrapping him in a warm blanket or
+     by placing him in a tub of water that is warmed to 102 to 105
+     degrees Fahrenheit. If a thermometer is not available, make
+     sure the water is not hot to <strong>YOUR</strong> hand and forearm.</li>
+
+<li>If the victim is conscious, give him hot liquids (but not
+     alcohol) by mouth.</li>
+
+<li>Dry the victim thoroughly if water was used to rewarm him.</li>
+
+<li>Carry out the appropriate procedures as described under frostbite.</li>
+</ol>
+</p>
+<hr>
+        <blockquote>The CIA wants all code in the cloud under their lock and key.  They want to ban compilers and make people think HTML is computer programming.<br>
+        <em>- Terry A. Davis</em>
+        </blockquote>
+        <footer>
+
+        </footer>
+    
+
+</body></html>
