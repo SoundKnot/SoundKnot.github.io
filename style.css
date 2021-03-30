@@ -1,0 +1,65 @@
+.fullscreen-video-wrap{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+	z-index:-1;
+}
+
+.fullscreen-video-wrap video{
+	min-height:100%;
+	min-width:100%;
+}
+
+body{
+	margin:40px auto;
+	max-width: 650px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:normal;
+	line-height:1.5;
+	color:#fff;
+	overflow-x:hidden;
+	z-index:2;
+}
+
+header {
+	text-align:center;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: underline;
+	color:#fff;
+}
+
+p,h1,h2,h3,h4,h5,nav{
+	border:1px solid rgba(255, 255, 255, .5);
+	background:#333;
+	margin:10px;
+	opacity:0.86;
+}
+
+h2,h3,h4,h5{
+	margin-bottom:0px;
+	border-bottom:none;
+	padding-left:.8em;
+	padding-top:.8em;
+	padding-bottom:.4em;
+}
+
+h1{
+	padding:.4em;
+	display:flex;
+	justify-content:center;
+	line-height:100px;
+}
+
+p{
+	font-size:1.2rem;
+	padding:1em;
+	margin-top:0px;
+	padding-top:0px;
+	border-top:none;
+}
